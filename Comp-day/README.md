@@ -1,16 +1,16 @@
-# 🚗 Autonomous Car — SQU University Competition (2nd Place 🥈)
+# Autonomous Car — SQU University Competition (2nd Place)
 
 A camera-only autonomous car built for the SQU University autonomous vehicle competition. The car uses a **Distance-Transform Centerline** algorithm to follow an orange-boundary track, with a green traffic light as a start gate — all without ROS.
 
 ---
 
-## 🏆 Result
+## Result
 
 > **2nd Place** — SQU University Autonomous Car Competition
 
 ---
 
-## ✨ Features
+## Features
 
 - **Camera-only** — no LiDAR, no ultrasonic sensors
 - **Orange boundary detection** using HSV color masking
@@ -22,7 +22,7 @@ A camera-only autonomous car built for the SQU University autonomous vehicle com
 
 ---
 
-## 🔧 Hardware
+## Hardware
 
 | Component        | Detail                              |
 |-----------------|-------------------------------------|
@@ -41,7 +41,7 @@ A camera-only autonomous car built for the SQU University autonomous vehicle com
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ### System packages
 
@@ -58,7 +58,7 @@ pip3 install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Run over SSH (headless — no display needed)
 
@@ -76,7 +76,7 @@ Press **`q`** to quit in GUI mode, or **`Ctrl+C`** in headless mode.
 
 ---
 
-## ⚙️ CLI Arguments
+## CLI Arguments
 
 ### Speed
 
@@ -126,7 +126,7 @@ Press **`q`** to quit in GUI mode, or **`Ctrl+C`** in headless mode.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ```
 Camera Frame
@@ -166,7 +166,7 @@ Emergency stop check (center corridor fully blocked?)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 autonomous-car/
